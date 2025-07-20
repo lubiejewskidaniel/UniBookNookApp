@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+.total-row {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+/* Styled Back Button */
+.back-btn {
+    display: block;  /* Make it a block element to allow auto margins */
+    width: fit-content;  /* Keep it only as wide as the text */
+    margin: 30px auto;  /* Center it horizontally */
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.back-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Click effect */
+.back-btn:active {
+    background-color: #004494;
+    transform: scale(0.98);
+}

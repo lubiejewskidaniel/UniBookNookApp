@@ -1,0 +1,101 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container styling */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Page title */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Header row styling */
+th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Alternate row colors for better readability */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Styling for 'No orders found' row */
+td[colspan="4"] {
+    text-align: center;
+    font-weight: bold;
+    color: #ff0000;
+    padding: 20px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+/* Styled Back Button */
+.back-btn {
+    display: flex;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.back-btn:active {
+    background-color: #004494;
+    transform: scale(0.98);
+}

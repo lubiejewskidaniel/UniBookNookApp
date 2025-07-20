@@ -1,0 +1,71 @@
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #343a40;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e3e3e3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.order a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.order a:hover {
+    text-decoration: underline;
+}
+
+.order span {
+    flex: 1;
+    text-align: center;
+}
+
+/* Styled Back Button */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.back-btn:active {
+    background-color: #004494;
+    transform: scale(0.98);
+}
