@@ -1,17 +1,29 @@
 # 📚 UniBookNook – University Bookstore Web Application
 
-**UniBookNook** is a dynamic Java-based web application designed for managing a university-level bookstore platform. 
-This project demonstrates practical application of Java EE technologies including Servlets, JSP, JDBC, MVC architecture, and SQL-based persistence.
+**UniBookNook** is a dynamic Java-based web application designed for managing a university-level bookstore platform. This project demonstrates practical application of Java EE technologies including Servlets, JSP, JDBC, MVC architecture, and SQL-based persistence.
 
 🗓️ **Developed:** 2025  
 🛠️ **Tech Stack:** Java, JSP, Servlets, JDBC, SQLite, HTML, CSS, JavaScript
+
+
+## 📌 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Database Configuration](#️-database-configuration)
+- [Diagrams Included](#-diagrams-included)
+- [Testing](#-testing)
+- [Key Technologies](#-key-technologies)
+- [Future Improvements](#-future-improvements)
+- [Contact](#-contact)
+
 
 ---
 
 ## 🌟 Project Overview
 
-The UniBookNook platform allows students and administrators to interact with an online bookstore system. 
-Students can browse and purchase books and accessories, while admins can manage inventory, users, and orders.
+The UniBookNook platform allows students and administrators to interact with an online bookstore system. Students can browse and purchase books and accessories, while admins can manage inventory, users, and orders.
 
 This full-stack solution was designed from the ground up as part of an academic project and showcases solid backend integration with a modular, extensible frontend.
 
